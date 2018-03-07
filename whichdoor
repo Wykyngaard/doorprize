@@ -1,0 +1,4 @@
+prize = random(3);
+you = choose("Which door will you open?","blue door","red door","purple door");
+  if(you == prize){show("You win a cake!");}
+  else {show("You don't win anything. Sorry.");}
